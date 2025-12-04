@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B5A1803E2EE20A1400F733BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A180242EE20A1300F733BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5A1802B2EE20A1300F733BA;
+			remoteInfo = LanStatusIndicator;
+		};
+		B5A180482EE20A1400F733BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A180242EE20A1300F733BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5A1802B2EE20A1300F733BA;
+			remoteInfo = LanStatusIndicator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5A1802C2EE20A1300F733BA /* LanStatusIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanStatusIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A1803D2EE20A1400F733BA /* LanStatusIndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanStatusIndicatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A180472EE20A1400F733BA /* LanStatusIndicatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanStatusIndicatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B5A1802E2EE20A1300F733BA /* LanStatusIndicator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LanStatusIndicator;
+			sourceTree = "<group>";
+		};
+		B5A180402EE20A1400F733BA /* LanStatusIndicatorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LanStatusIndicatorTests;
+			sourceTree = "<group>";
+		};
+		B5A1804A2EE20A1400F733BA /* LanStatusIndicatorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LanStatusIndicatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5A180292EE20A1300F733BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A1803A2EE20A1400F733BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A180442EE20A1400F733BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5A180232EE20A1300F733BA = {
+			isa = PBXGroup;
+			children = (
+				B5A1802E2EE20A1300F733BA /* LanStatusIndicator */,
+				B5A180402EE20A1400F733BA /* LanStatusIndicatorTests */,
+				B5A1804A2EE20A1400F733BA /* LanStatusIndicatorUITests */,
+				B5A1802D2EE20A1300F733BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5A1802D2EE20A1300F733BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5A1802C2EE20A1300F733BA /* LanStatusIndicator.app */,
+				B5A1803D2EE20A1400F733BA /* LanStatusIndicatorTests.xctest */,
+				B5A180472EE20A1400F733BA /* LanStatusIndicatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5A1802B2EE20A1300F733BA /* LanStatusIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A180512EE20A1400F733BA /* Build configuration list for PBXNativeTarget "LanStatusIndicator" */;
+			buildPhases = (
+				B5A180282EE20A1300F733BA /* Sources */,
+				B5A180292EE20A1300F733BA /* Frameworks */,
+				B5A1802A2EE20A1300F733BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B5A1802E2EE20A1300F733BA /* LanStatusIndicator */,
+			);
+			name = LanStatusIndicator;
+			packageProductDependencies = (
+			);
+			productName = LanStatusIndicator;
+			productReference = B5A1802C2EE20A1300F733BA /* LanStatusIndicator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5A1803C2EE20A1400F733BA /* LanStatusIndicatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A180542EE20A1400F733BA /* Build configuration list for PBXNativeTarget "LanStatusIndicatorTests" */;
+			buildPhases = (
+				B5A180392EE20A1400F733BA /* Sources */,
+				B5A1803A2EE20A1400F733BA /* Frameworks */,
+				B5A1803B2EE20A1400F733BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5A1803F2EE20A1400F733BA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B5A180402EE20A1400F733BA /* LanStatusIndicatorTests */,
+			);
+			name = LanStatusIndicatorTests;
+			packageProductDependencies = (
+			);
+			productName = LanStatusIndicatorTests;
+			productReference = B5A1803D2EE20A1400F733BA /* LanStatusIndicatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5A180462EE20A1400F733BA /* LanStatusIndicatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A180572EE20A1400F733BA /* Build configuration list for PBXNativeTarget "LanStatusIndicatorUITests" */;
+			buildPhases = (
+				B5A180432EE20A1400F733BA /* Sources */,
+				B5A180442EE20A1400F733BA /* Frameworks */,
+				B5A180452EE20A1400F733BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5A180492EE20A1400F733BA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B5A1804A2EE20A1400F733BA /* LanStatusIndicatorUITests */,
+			);
+			name = LanStatusIndicatorUITests;
+			packageProductDependencies = (
+			);
+			productName = LanStatusIndicatorUITests;
+			productReference = B5A180472EE20A1400F733BA /* LanStatusIndicatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5A180242EE20A1300F733BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					B5A1802B2EE20A1300F733BA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					B5A1803C2EE20A1400F733BA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B5A1802B2EE20A1300F733BA;
+					};
+					B5A180462EE20A1400F733BA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B5A1802B2EE20A1300F733BA;
+					};
+				};
+			};
+			buildConfigurationList = B5A180272EE20A1300F733BA /* Build configuration list for PBXProject "LanStatusIndicator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5A180232EE20A1300F733BA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B5A1802D2EE20A1300F733BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5A1802B2EE20A1300F733BA /* LanStatusIndicator */,
+				B5A1803C2EE20A1400F733BA /* LanStatusIndicatorTests */,
+				B5A180462EE20A1400F733BA /* LanStatusIndicatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5A1802A2EE20A1300F733BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A1803B2EE20A1400F733BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A180452EE20A1400F733BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5A180282EE20A1300F733BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A180392EE20A1400F733BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A180432EE20A1400F733BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5A1803F2EE20A1400F733BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5A1802B2EE20A1300F733BA /* LanStatusIndicator */;
+			targetProxy = B5A1803E2EE20A1400F733BA /* PBXContainerItemProxy */;
+		};
+		B5A180492EE20A1400F733BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5A1802B2EE20A1300F733BA /* LanStatusIndicator */;
+			targetProxy = B5A180482EE20A1400F733BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B5A1804F2EE20A1400F733BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5A180502EE20A1400F733BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B5A180522EE20A1400F733BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LanStatusIndicator/LanStatusIndicator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LanStatusIndicator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LanStatusIndicator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B5A180532EE20A1400F733BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LanStatusIndicator/LanStatusIndicator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LanStatusIndicator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LanStatusIndicator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B5A180552EE20A1400F733BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LanStatusIndicatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanStatusIndicator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LanStatusIndicator";
+			};
+			name = Debug;
+		};
+		B5A180562EE20A1400F733BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LanStatusIndicatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanStatusIndicator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LanStatusIndicator";
+			};
+			name = Release;
+		};
+		B5A180582EE20A1400F733BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LanStatusIndicatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LanStatusIndicator;
+			};
+			name = Debug;
+		};
+		B5A180592EE20A1400F733BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LanStatusIndicatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LanStatusIndicator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5A180272EE20A1300F733BA /* Build configuration list for PBXProject "LanStatusIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A1804F2EE20A1400F733BA /* Debug */,
+				B5A180502EE20A1400F733BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A180512EE20A1400F733BA /* Build configuration list for PBXNativeTarget "LanStatusIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A180522EE20A1400F733BA /* Debug */,
+				B5A180532EE20A1400F733BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A180542EE20A1400F733BA /* Build configuration list for PBXNativeTarget "LanStatusIndicatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A180552EE20A1400F733BA /* Debug */,
+				B5A180562EE20A1400F733BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A180572EE20A1400F733BA /* Build configuration list for PBXNativeTarget "LanStatusIndicatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A180582EE20A1400F733BA /* Debug */,
+				B5A180592EE20A1400F733BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5A180242EE20A1300F733BA /* Project object */;
+}
