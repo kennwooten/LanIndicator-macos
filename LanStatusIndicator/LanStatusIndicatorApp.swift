@@ -2,16 +2,19 @@
 //  LanStatusIndicatorApp.swift
 //  LanStatusIndicator
 //
-//  Created by Константин  on 04.12.2025.
+//  Created by Константин  on 05.12.2025.
 //
 
 import SwiftUI
 
 @main
 struct LanStatusIndicatorApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        // NO WINDOWS — hidden app
+        Settings {
+            EmptyView()
         }
     }
 }
