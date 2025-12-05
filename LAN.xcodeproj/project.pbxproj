@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B5A7F4CF2EE35C93009EB2FA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B5A7F4C72EE35C93009EB2FA /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B5A1803E2EE20A1400F733BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		B5A1802C2EE20A1300F733BA /* LanStatusIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanStatusIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A1803D2EE20A1400F733BA /* LanStatusIndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanStatusIndicatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A180472EE20A1400F733BA /* LanStatusIndicatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanStatusIndicatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A7F4C72EE35C93009EB2FA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -92,6 +97,7 @@
 				B5A180402EE20A1400F733BA /* LanStatusIndicatorTests */,
 				B5A1804A2EE20A1400F733BA /* LanStatusIndicatorUITests */,
 				B5A1802D2EE20A1300F733BA /* Products */,
+				B5A7F4C72EE35C93009EB2FA /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -199,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B5A180272EE20A1300F733BA /* Build configuration list for PBXProject "LanStatusIndicator" */;
+			buildConfigurationList = B5A180272EE20A1300F733BA /* Build configuration list for PBXProject "LAN" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -225,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5A7F4CF2EE35C93009EB2FA /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,7 +540,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B5A180272EE20A1300F733BA /* Build configuration list for PBXProject "LanStatusIndicator" */ = {
+		B5A180272EE20A1300F733BA /* Build configuration list for PBXProject "LAN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5A1804F2EE20A1400F733BA /* Debug */,
